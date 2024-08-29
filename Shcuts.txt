@@ -1,0 +1,44 @@
+The top 10 Git Bash commands:
+
+1. git status
+Usage: git status
+Description: Shows the status of your working directory and staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
+2. git add
+Usage: git add <file> or git add .
+Description: Adds changes in the working directory to the staging area. Use git add . to stage all changes or git add <file> to stage specific files.
+
+3. git commit
+Usage: git commit -m "commit message"
+Description: Records changes to the repository with a descriptive message.
+
+4. git log
+Usage: git log
+Description: Displays the commit history, showing the sequence of commits, commit hashes, author details, dates, and commit messages.
+
+5. git pull
+Usage: git pull
+Description: Fetches changes from a remote repository and merges them into your current branch. It's a combination of git fetch and git merge.
+
+6. git push
+Usage: git push
+Description: Uploads your local commits to a remote repository. It's typically used to share your changes with others.
+
+7. git clone
+Usage: git clone <repository-url>
+Description: Creates a copy of a remote repository on your local machine.
+
+8. git branch
+Usage: git branch or git branch <branch-name>
+Description: Lists all branches in your repository or creates a new branch.
+
+9. git checkout
+Usage: git checkout <branch-name> or git checkout <commit-hash>
+Description: Switches branches or restores working tree files. You can use it to switch to another branch or to revert your working directory to a previous commit.
+
+10. git merge
+Usage: git merge <branch-name>
+Description: Merges the changes from one branch into your current branch.
+Bonus: git remote
+Usage: git remote -v or git remote add <name> <url>
+Description: Manages remote connections. It shows the remote repositories associated with your project and can add new ones.
